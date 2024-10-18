@@ -18,7 +18,6 @@ class App extends React.Component  {
         const {advice} = response.data.slip;
         
         this.setState({advice : advice});
-
     })
     .catch((error) => {
         console.log(error);
